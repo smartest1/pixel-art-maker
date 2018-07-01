@@ -74,10 +74,12 @@ function getColour(){
 
 	let newColour = rgba2hex(currentColour);
 	
+	// If color equals to bacground color, make background color white
 	if ($("#col").val()==newColour){
 		$(this).css("background-color", "white");
 	}
 	else{
+		// set color equal to selected color
 		$(this).css("background-color", colour);
 	}
 		
@@ -105,6 +107,11 @@ $(function() {
 		getColour();
 	
 	
+	});
+
+	// Add event listener to refresh
+	$(".clearGrid").click(function(){
+		$(".grid").remove();
 	});
 	
 });

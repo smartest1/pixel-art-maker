@@ -1,0 +1,78 @@
+body {
+  text-align: center;
+  color: gold;
+	
+}
+
+h1 {
+	font-family: Monoton;
+	margin: 0.1em;
+  font-size: 70px;
+  color: gold
+  ;
+  	
+}
+
+h2 {
+  margin: 0 0 0.15em;
+  color: white;
+}
+
+.b-image{
+  background-image: url(../image/logo.jpg);
+  background-size: 100% 350px;
+  background-repeat: no-repeat;
+}
+
+.instruction{
+  font-size: 20px
+}
+
+.firstDiv {
+	margin-bottom: 1em;
+}
+
+label{
+  font-family: Monoton;
+  font-weight: bolder;
+  color: gold
+  ;
+  
+}
+
+.design{
+  margin: 0.4em 0 0;
+  font-size: 30px;
+}
+
+.container {
+	padding-bottom: 2px;
+	
+}
+
+table {
+  display: inline-table;
+  margin: 1em;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+table td {
+  border: 1px solid black;
+  height: 20px;
+  width: 20px;
+}
+
+.submit, .clearGrid{
+  border: 2px solid blue;
+  border-radius: 12px;
+  background-color: gold
+  ;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 3px;
+  cursor: pointer;
+
+}

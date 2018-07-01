@@ -1,15 +1,19 @@
 # Pixel Art Maker Project
 
-## Table of Contents
-
-* [Instructions](#instructions)
-* [Contributing](#contributing)
-
 ## Instructions
 
-To get started, open `designs.js` and start building out the app's functionality.
+1. Choose the grid height and width.
+2. Select a color using the color picker.
+3. Click on make grid to create grid
+4. Click on each of the box to color it.
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+##NB. 
+1. Height and width must be greater than or equal to 1 but less than or equal to 100.
+2. Click on an already colored box to remove the color
+
+## Link of app on github pages
+
+https://smartest1.github.io/pixel-art-maker/
 
 ## Contributing
 
